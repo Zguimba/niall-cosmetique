@@ -1,10 +1,17 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 
+// Import des images
+import visage from "../assets/soins-pour-visage.webp";
+import cheveux from "../assets/soins-pour-cheveux.webp";
+import corps from "../assets/soins-pour-corps.webp";
+import bebe1 from "../assets/produit-bebe1.webp";
+import bebe2 from "../assets/produit-bebe2.webp";
+
 // Produits partagés
 const sharedProducts = [
   {
-    img: "/images/soins-pour-corps.webp",
+    img: corps,
     title: "Gel Douche",
     desc: "Gel douche rafraîchissant et doux pour tous types de peau",
     link: "/niall-cosmetique/produit/gel-douche",
@@ -15,36 +22,36 @@ const sharedProducts = [
 const productsPourElle = [
   ...sharedProducts,
   {
-    img: "/assets/soins-pour-visage.webp",
+    img: visage,
     title: "Soins pour Visage",
     desc: "Nettoie, hydrate et éclaire le teint",
-    link: "/produit/soins-visage",
+    link: "/niall-cosmetique/produit/soins-visage",
   },
   {
-    img: "/assets/soins-pour-cheveux.webp",
+    img: cheveux,
     title: "Soins pour Cheveux",
     desc: "Hydrate et renforce vos cheveux",
-    link: "/categorie/cheveux",
+    link: "/niall-cosmetique/categorie/cheveux",
   },
 ];
 
 const productsPourLui = [
   ...sharedProducts,
-  // Tu peux ajouter d'autres produits spécifiques pour lui ici
+  // Ajouter d'autres produits spécifiques pour lui si besoin
 ];
 
 const productsPourBebe = [
   {
-    img: "/assets/produit-bebe1.webp",
+    img: bebe1,
     title: "Shampoing Bébé",
     desc: "Shampoing doux et hypoallergénique",
-    link: "/assets/shampoing-bebe",
+    link: "/niall-cosmetique/produit/shampoing-bebe",
   },
   {
-    img: "/assets/produit-bebe2.webp",
+    img: bebe2,
     title: "Lotion Bébé",
     desc: "Hydrate et protège la peau délicate de bébé",
-    link: "/produit/lotion-bebe",
+    link: "/niall-cosmetique/produit/lotion-bebe",
   },
 ];
 
