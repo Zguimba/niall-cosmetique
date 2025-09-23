@@ -7,7 +7,7 @@ const sharedProducts = [
     img: "/images/soins-pour-corps.webp",
     title: "Gel Douche",
     desc: "Gel douche rafraîchissant et doux pour tous types de peau",
-    link: "/produit/gel-douche",
+    link: "/niall-cosmetique/produit/gel-douche",
   },
 ];
 
@@ -15,13 +15,13 @@ const sharedProducts = [
 const productsPourElle = [
   ...sharedProducts,
   {
-    img: "/images/soins-pour-visage.webp",
+    img: "/assets/soins-pour-visage.webp",
     title: "Soins pour Visage",
     desc: "Nettoie, hydrate et éclaire le teint",
     link: "/produit/soins-visage",
   },
   {
-    img: "/images/soins-pour-cheveux.webp",
+    img: "/assets/soins-pour-cheveux.webp",
     title: "Soins pour Cheveux",
     desc: "Hydrate et renforce vos cheveux",
     link: "/categorie/cheveux",
@@ -35,13 +35,13 @@ const productsPourLui = [
 
 const productsPourBebe = [
   {
-    img: "/images/produit-bebe1.webp",
+    img: "/assets/produit-bebe1.webp",
     title: "Shampoing Bébé",
     desc: "Shampoing doux et hypoallergénique",
-    link: "/produit/shampoing-bebe",
+    link: "/assets/shampoing-bebe",
   },
   {
-    img: "/images/produit-bebe2.webp",
+    img: "/assets/produit-bebe2.webp",
     title: "Lotion Bébé",
     desc: "Hydrate et protège la peau délicate de bébé",
     link: "/produit/lotion-bebe",
