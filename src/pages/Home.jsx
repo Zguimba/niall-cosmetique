@@ -9,16 +9,19 @@ import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import FadeInSection from "../components/FadeInSection";
 
-// Import des images depuis src/assets
+// 🔹 Import des images depuis src/assets
 import productImage1 from "../assets/produit01.webp";
 import produit02 from "../assets/produit02.webp";
 import produit03 from "../assets/produit03.webp";
+
 import gel20 from "../assets/gel20.webp";
 import intro1 from "../assets/intro1.webp";
 import visu3 from "../assets/visu3.webp";
+
 import visu01 from "../assets/visu01.webp";
 import visu02 from "../assets/visu02.webp";
 import visu03 from "../assets/visu03.webp";
+
 import soinsCorps from "../assets/soins-pour-corps.webp";
 import soinsVisage from "../assets/soins-pour-visage.webp";
 import soinsCheveux from "../assets/soins-pour-cheveux.webp";
@@ -27,8 +30,8 @@ import gelNettoyants from "../assets/gel-nettoyants.webp";
 import smouthMe from "../assets/smouth-me.webp";
 
 export default function Home() {
+  // 🔹 Hero
   const heroImages = [productImage1, produit02, produit03];
-
   const [currentIndex, setCurrentIndex] = useState(0);
   const [fade, setFade] = useState(true);
 
@@ -40,22 +43,24 @@ export default function Home() {
         setFade(true);
       }, 700);
     }, 3000);
-
     return () => clearInterval(interval);
   }, [heroImages.length]);
 
+  // 🔹 Nouveautés
   const nouveautes = [
     { img: gel20, title: "Gel Douche Savon Dzair", desc: "Plongez dans une expérience de douche rafraîchissante avec notre Gel Douche Savon Dzair", link: "/produit/gel-douche-savon-dzair" },
     { img: intro1, title: "Gommage Corporel Savon Dzair", desc: "Explorez notre gommage corporel Savon Dzair, une invitation à l’évasion dans les hammams traditionnels d’Algérie.", link: "/produit/gommage-corporel-savon-dzair" },
     { img: visu3, title: "Gommage Corporel au Café", desc: "Accordez-vous une pause café pour votre peau et découvrez la fraîcheur naturelle d'une peau bien soignée.", link: "/produit/gommage-corporel-au-café" },
   ];
 
+  // 🔹 Catégories
   const categories = [
     { img: visu01, badge: "Pour Elle", link: "/categorie/elle" },
     { img: visu02, badge: "Pour Lui", link: "/categorie/lui" },
     { img: visu03, badge: "Pour Bébé", link: "/categorie/bebe" },
   ];
 
+  // 🔹 Carrousel
   const carrousel = [
     { img: soinsCorps, link: "/produit/gel-douche" },
     { img: soinsVisage, link: "/produit/soins-visage" },
@@ -67,7 +72,7 @@ export default function Home() {
 
   return (
     <div className="bg-[#F8F8F8] text-[#1C1C1C] font-['Roboto',sans-serif]">
-      {/* Section produit (Hero) */}
+      {/* Hero */}
       <section className="py-8 px-4 md:px-16 flex flex-col md:flex-row items-center gap-8 relative">
         <div className="md:w-3/4 flex justify-center relative z-10">
           <img
@@ -89,7 +94,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* section Nouveautés */}
+      {/* Nouveautés */}
       <section className="px-4 md:px-16 pt-0">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Découvrez nos Nouveautés</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -127,12 +132,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Section Carrousel flottant */}
+      {/* Carrousel */}
       <section className="px-4 md:px-16 mt-16 relative">
         <FadeInSection>
           <h2 className="font-['Playfair_Display',serif] text-3xl sm:text-4xl md:text-4xl font-bold text-center mb-8">Soins et Gammes Disponibles</h2>
         </FadeInSection>
-
         <FadeInSection delay={0.4}>
           <div className="w-full relative">
             <Swiper
@@ -172,7 +176,7 @@ export default function Home() {
         </FadeInSection>
       </section>
 
-      {/* Section Google Map */}
+      {/* Google Map */}
       <section className="px-4 md:px-16 mt-16">
         <FadeInSection>
           <h2 className="font-['Playfair_Display',serif] text-3xl sm:text-4xl md:text-4xl font-bold text-center mb-8">Nous trouver</h2>
