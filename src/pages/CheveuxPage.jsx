@@ -8,17 +8,24 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
+// Import des images
+import shamp1 from "../assets/shamp1.webp";
+import shamp2 from "../assets/shamp2.webp";
+import shamp3 from "../assets/shamp3.webp";
+import shamp4 from "../assets/shamp4.webp";
+import shamp5 from "../assets/shamp5.webp";
+
 // Shampoings
 const shampoings = [
-  { img: "/images/shamp1.webp", title: "Shampooing BB Hair Sans Sulfate", link: "/produit/shampooing-bb-hair-sans-sulfate" },
-  { img: "/images/shamp2.webp", title: "Shampooing BB Hair Silver", link: "/produit/shampooing-bb-hair-silver" },
-  { img: "/images/shamp3.webp", title: "Shampooing BB Hair Rose", link: "/produit/shampooing-bb-hair-rose" },
+  { img: shamp1, title: "Shampooing BB Hair Sans Sulfate", link: "/produit/shampooing-bb-hair-sans-sulfate" },
+  { img: shamp2, title: "Shampooing BB Hair Silver", link: "/produit/shampooing-bb-hair-silver" },
+  { img: shamp3, title: "Shampooing BB Hair Rose", link: "/produit/shampooing-bb-hair-rose" },
 ];
 
 // Après-Shampoings
 const apresShampoings = [
-  { img: "/images/shamp4.webp", title: "Après Shampooing BB Hair Silver", link: "/produit/apres-shampooing-bb-hair-silver" },
-  { img: "/images/shamp5.webp", title: "Après Shampooing BB Hair Rose", link: "/produit/apres-shampooing-bb-hair-rose" },
+  { img: shamp4, title: "Après Shampooing BB Hair Silver", link: "/produit/apres-shampooing-bb-hair-silver" },
+  { img: shamp5, title: "Après Shampooing BB Hair Rose", link: "/produit/apres-shampooing-bb-hair-rose" },
 ];
 
 // Composant carrousel réutilisable

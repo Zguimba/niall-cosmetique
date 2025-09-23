@@ -1,21 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// Import des images depuis src/assets
+import visage from "../assets/soins-pour-visage.webp";
+import cheveux from "../assets/soins-pour-cheveux.webp";
+import corps from "../assets/soins-pour-corps.webp";
+
 export default function Soins() {
   const categories = [
     {
       title: "Soins pour le visage",
-      img: "/images/soins-pour-visage.webp",
+      img: visage,
       link: "/produit/soins-visage",
     },
     {
       title: "Soins pour les cheveux",
-      img: "/images/soins-pour-cheveux.webp",
+      img: cheveux,
       link: "/categorie/cheveux",
     },
     {
       title: "Soins pour le corps",
-      img: "/images/soins-pour-corps.webp",
+      img: corps,
       link: "/produit/gel-douche",
     },
   ];
