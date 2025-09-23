@@ -14,7 +14,7 @@ const sharedProducts = [
     img: corps,
     title: "Gel Douche",
     desc: "Gel douche rafraîchissant et doux pour tous types de peau",
-    link: "/niall-cosmetique/produit/gel-douche",
+    link: "/produit/gel-douche",
   },
 ];
 
@@ -25,13 +25,13 @@ const productsPourElle = [
     img: visage,
     title: "Soins pour Visage",
     desc: "Nettoie, hydrate et éclaire le teint",
-    link: "/niall-cosmetique/produit/soins-visage",
+    link: "/produit/soins-visage",
   },
   {
     img: cheveux,
     title: "Soins pour Cheveux",
     desc: "Hydrate et renforce vos cheveux",
-    link: "/niall-cosmetique/categorie/cheveux",
+    link: "/categorie/cheveux",
   },
 ];
 
@@ -45,13 +45,13 @@ const productsPourBebe = [
     img: bebe1,
     title: "Shampoing Bébé",
     desc: "Shampoing doux et hypoallergénique",
-    link: "/niall-cosmetique/produit/shampoing-bebe",
+    link: "/produit/shampoing-bebe",
   },
   {
     img: bebe2,
     title: "Lotion Bébé",
     desc: "Hydrate et protège la peau délicate de bébé",
-    link: "/niall-cosmetique/produit/lotion-bebe",
+    link: "/produit/lotion-bebe",
   },
 ];
 
