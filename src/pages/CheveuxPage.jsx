@@ -2,6 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
@@ -9,15 +10,15 @@ import "swiper/css/navigation";
 
 // Shampoings
 const shampoings = [
-  { img: "/images/shamp1.webp", title: "Shampooing BB Hair Sans Sulfate", link: "/produit/Shampooing-bb-hair-sans-sulfate" },
-  { img: "/images/shamp2.webp", title: "Shampooing BB Hair Silver", link: "/produit/shampooing-bb-hairs-silver" },
+  { img: "/images/shamp1.webp", title: "Shampooing BB Hair Sans Sulfate", link: "/produit/shampooing-bb-hair-sans-sulfate" },
+  { img: "/images/shamp2.webp", title: "Shampooing BB Hair Silver", link: "/produit/shampooing-bb-hair-silver" },
   { img: "/images/shamp3.webp", title: "Shampooing BB Hair Rose", link: "/produit/shampooing-bb-hair-rose" },
 ];
 
 // Après-Shampoings
 const apresShampoings = [
-  { img: "/images/shamp4.webp", title: "Après Shampooing BB Hair Silver", link: "/produit/après-shampooing-bb-hair-silver" },
-  { img: "/images/shamp5.webp", title: "Après Shampooing BB Hair Rose", link: "/produit/après-shampooing-bb-hair-rose" },
+  { img: "/images/shamp4.webp", title: "Après Shampooing BB Hair Silver", link: "/produit/apres-shampooing-bb-hair-silver" },
+  { img: "/images/shamp5.webp", title: "Après Shampooing BB Hair Rose", link: "/produit/apres-shampooing-bb-hair-rose" },
 ];
 
 // Composant carrousel réutilisable
@@ -47,14 +48,14 @@ const Carousel = ({ products, customPrev, customNext }) => (
     >
       {products.map((product, i) => (
         <SwiperSlide key={i} className="shadow-xl">
-          <a href={product.link} className="block">
+          <Link to={product.link} className="block">
             <img
               src={product.img}
               alt={product.title}
               className="w-full h-[300px] object-cover"
             />
             <h3 className="text-center mt-2 font-semibold">{product.title}</h3>
-          </a>
+          </Link>
         </SwiperSlide>
       ))}
     </Swiper>

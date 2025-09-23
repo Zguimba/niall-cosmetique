@@ -1,6 +1,12 @@
 import React from "react";
 import FadeInSection from "../components/FadeInSection";
 
+// Import des images depuis assets
+import produit01 from "../assets/produit01.webp";
+import produit02 from "../assets/produit02.webp";
+import produit03 from "../assets/produit03.webp";
+import gel10 from "../assets/gel10.webp";
+
 export default function APropos() {
   return (
     <div className="px-6 md:px-16 py-12">
@@ -8,7 +14,7 @@ export default function APropos() {
       <FadeInSection>
         <div className="relative mb-16">
           <img
-            src="/images/produit01.webp"
+            src={produit01}
             alt="Niall Cosmétique"
             className="w-full h-[450px] object-cover"
           />
@@ -36,7 +42,7 @@ export default function APropos() {
       <FadeInSection>
         <div className="grid md:grid-cols-2 gap-8 items-center mb-20">
           <img
-            src="/images/produit02.webp"
+            src={produit02}
             alt="Fondatrice"
             className="w-full h-[400px] object-cover"
           />
@@ -60,7 +66,7 @@ export default function APropos() {
           </h2>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <img
-              src="/images/produit03.webp"
+              src={produit03}
               alt="Nature"
               className="w-full h-[350px] object-cover"
             />
@@ -89,7 +95,7 @@ export default function APropos() {
               exigeants...
             </p>
             <img
-              src="/images/gel10.webp"
+              src={gel10}
               alt="Qualité"
               className="w-full h-[350px] object-cover order-1 md:order-2"
             />

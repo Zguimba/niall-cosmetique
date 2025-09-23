@@ -1,12 +1,11 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 // Produits partagés
-
 const sharedProducts = [
   {
-    img: "/images/soins pour corps.webp",
-    title: "",
+    img: "/images/soins-pour-corps.webp",
+    title: "Gel Douche",
     desc: "Gel douche rafraîchissant et doux pour tous types de peau",
     link: "/produit/gel-douche",
   },
@@ -16,22 +15,22 @@ const sharedProducts = [
 const productsPourElle = [
   ...sharedProducts,
   {
-    img: "/images/soins pour visage.webp",
+    img: "/images/soins-pour-visage.webp",
     title: "Soins pour Visage",
     desc: "Nettoie, hydrate et éclaire le teint",
     link: "/produit/soins-visage",
   },
   {
-    img: "/images/soins pour cheveux.webp",
+    img: "/images/soins-pour-cheveux.webp",
     title: "Soins pour Cheveux",
     desc: "Hydrate et renforce vos cheveux",
-    link: "/categorie/cheveux"
+    link: "/categorie/cheveux",
   },
 ];
 
 const productsPourLui = [
   ...sharedProducts,
-  // ajouter ici d'autres produits spécifiques pour lui si besoin
+  // Tu peux ajouter d'autres produits spécifiques pour lui ici
 ];
 
 const productsPourBebe = [
@@ -73,7 +72,9 @@ export default function Categories() {
 
   return (
     <div className="px-4 md:px-16 py-16">
-      <h1 className="text-3xl font-bold mb-6 text-center">Catégorie : {categoryTitle}</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">
+        Catégorie : {categoryTitle}
+      </h1>
       <p className="text-gray-700 text-center mb-10">
         Découvrez nos produits adaptés à cette catégorie.
       </p>
@@ -84,8 +85,8 @@ export default function Categories() {
             key={i}
             className="bg-white shadow-md overflow-hidden flex flex-col group"
           >
-            <a
-              href={item.link}
+            <Link
+              to={item.link}
               className="h-[250px] flex items-center justify-center bg-white"
             >
               <img
@@ -93,13 +94,16 @@ export default function Categories() {
                 alt={item.title}
                 className="max-h-full max-w-full object-contain transform transition-transform duration-500 group-hover:scale-105"
               />
-            </a>
+            </Link>
             <div className="px-4 py-4 flex flex-col items-center text-center">
               <h3 className="text-base font-semibold">{item.title}</h3>
               <p className="text-sm text-gray-600 mt-2">{item.desc}</p>
-              <button className="mt-4 px-4 py-2 bg-[#D8A47F] text-white font-semibold hover:bg-[#F4E1D2] transition">
+              <Link
+                to={item.link}
+                className="mt-4 px-4 py-2 bg-[#D8A47F] text-white font-semibold hover:bg-[#F4E1D2] transition"
+              >
                 En savoir plus
-              </button>
+              </Link>
             </div>
           </div>
         ))}

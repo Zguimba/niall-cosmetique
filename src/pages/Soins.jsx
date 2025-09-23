@@ -5,17 +5,17 @@ export default function Soins() {
   const categories = [
     {
       title: "Soins pour le visage",
-      img: "/images/soins pour visage.webp",
+      img: "/images/soins-pour-visage.webp",
       link: "/produit/soins-visage",
     },
     {
       title: "Soins pour les cheveux",
-      img: "/images/soins pour cheveux.webp",
+      img: "/images/soins-pour-cheveux.webp",
       link: "/categorie/cheveux",
     },
     {
       title: "Soins pour le corps",
-      img: "/images/soins pour corps.webp",
+      img: "/images/soins-pour-corps.webp",
       link: "/produit/gel-douche",
     },
   ];
