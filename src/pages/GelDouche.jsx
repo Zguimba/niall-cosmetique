@@ -11,19 +11,19 @@ import "swiper/css/navigation";
 
 // Données des produits
 const carousel1Products = [
-  { img: "/images/gel3.webp", title: "Gel Douche Citrus", link: "/produit/gel-douche-citrus" },
-  { img: "/images/gel2.webp", title: "Gel Douche Musk Tahara", link: "/produit/gel-douche-musk-tahara" },
-  { img: "/images/gel10.webp", title: "Gel Douche Ligne Rouge", link: "/produit/gel-douche-ligne-rouge" },
-  { img: "/images/gel20.webp", title: "Gel Douche Savon Dzair", link: "/produit/gel-douche-savon-dzair" },
+  { img: "/niall-cosmetique/images/gel3.webp", title: "Gel Douche Citrus", link: "/produit/gel-douche-citrus" },
+  { img: "/niall-cosmetique/images/gel2.webp", title: "Gel Douche Musk Tahara", link: "/produit/gel-douche-musk-tahara" },
+  { img: "/niall-cosmetique/images/gel10.webp", title: "Gel Douche Ligne Rouge", link: "/produit/gel-douche-ligne-rouge" },
+  { img: "/niall-cosmetique/images/gel20.webp", title: "Gel Douche Savon Dzair", link: "/produit/gel-douche-savon-dzair" },
 ];
 
 const carousel2Products = [
-  { img: "/images/gel4.webp", title: "Smooth Me Fraise Cerise", link: "/produit/smooth-me-fraise-cerise" },
-  { img: "/images/gel5.webp", title: "Smooth Me Pomme Verte", link: "/produit/smooth-me-pomme-verte" },
-  { img: "/images/gel6.webp", title: "Smooth Me Fruit De La Passion", link: "/produit/smooth-me-fruit-de-la-passion" },
-  { img: "/images/gel7.webp", title: "Smooth Me Pêche Ice Tea", link: "/produit/smooth-me-pêche-ice-tea" },
-  { img: "/images/gel8.webp", title: "Smooth Me Monoï", link: "/produit/smooth-me-monoï" },
-  { img: "/images/gel9.webp", title: "Smooth Me Mangue", link: "/produit/smooth-me-mangue" },
+  { img: "/niall-cosmetique/images/gel4.webp", title: "Smooth Me Fraise Cerise", link: "/produit/smooth-me-fraise-cerise" },
+  { img: "/niall-cosmetique/images/gel5.webp", title: "Smooth Me Pomme Verte", link: "/produit/smooth-me-pomme-verte" },
+  { img: "/niall-cosmetique/images/gel6.webp", title: "Smooth Me Fruit De La Passion", link: "/produit/smooth-me-fruit-de-la-passion" },
+  { img: "/niall-cosmetique/images/gel7.webp", title: "Smooth Me Pêche Ice Tea", link: "/produit/smooth-me-pêche-ice-tea" },
+  { img: "/niall-cosmetique/images/gel8.webp", title: "Smooth Me Monoï", link: "/produit/smooth-me-monoï" },
+  { img: "/niall-cosmetique/images/gel9.webp", title: "Smooth Me Mangue", link: "/produit/smooth-me-mangue" },
 ];
 
 export default function GelDouchePage() {

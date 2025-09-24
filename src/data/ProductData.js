@@ -4,7 +4,7 @@ const products = [
   {
     id: "gel-douche-citrus",
     name: "Gel Douche Citrus",
-    img: "/images/gel3.webp",
+    img: "/niall-cosmetique/images/gel3.webp",
     description:
       "Découvrez notre gel douche Citrus, une formule douce et rafraîchissante qui nettoie en douceur votre peau...",
     ingredients:
@@ -23,7 +23,7 @@ const products = [
   {
     id: "gel-douche-ligne-rouge",
     name: "Gel Douche Ligne Rouge",
-    img: "/images/gel10.webp",
+    img: "/niall-cosmetique/images/gel10.webp",
     description:
       "Le gel douche Ligne Rouge a été soigneusement formulé pour vous offrir une expérience luxueuse et envoûtante sous la douche...",
     ingredients:
@@ -41,7 +41,7 @@ const products = [
   {
     id: "gel-douche-musk-tahara",
     name: "Gel Douche Musk Tahara",
-    img: "/images/gel2.webp",
+    img: "/niall-cosmetique/images/gel2.webp",
     description:
       "Le gel douche Musk Tahara offre une expérience de douche luxueuse avec son parfum envoûtant et sa formule douce...",
     ingredients:
@@ -58,7 +58,7 @@ const products = [
   {
     id: "gel-douche-savon-dzair",
     name: "Gel Douche Savon Dzair",
-    img: "/images/gel20.webp",
+    img: "/niall-cosmetique/images/gel20.webp",
     description:
       "Plongez dans une expérience de douche rafraîchissante avec notre Gel Douche Savon Dzair...",
     ingredients:
@@ -73,7 +73,7 @@ const products = [
   {
     id: "smooth-me-fraise-cerise",
     name: "Smooth Me Fraise Cerise",
-    img: "/images/gel4.webp",
+    img: "/niall-cosmetique/images/gel4.webp",
     description:
       "Le gel douche Smooth Me Fraise-Cerise combine les arômes sucrés de la fraise et de la cerise...",
     ingredients:
@@ -89,7 +89,7 @@ const products = [
   {
     id: "smooth-me-fruit-de-la-passion",
     name: "Smooth Me Fruit De La Passion",
-    img: "/images/gel6.webp",
+    img: "/niall-cosmetique/images/gel6.webp",
     description:
       "Le gel douche Smooth Me Fruit de la Passion vous transporte dans un voyage exotique...",
     ingredients:
@@ -105,7 +105,7 @@ const products = [
   {
     id: "smooth-me-mangue",
     name: "Smooth Me Mangue",
-    img: "/images/gel9.webp",
+    img: "/niall-cosmetique/images/gel9.webp",
     description:
       "Le gel douche Smooth Me à la mangue nettoie en douceur et laisse une agréable odeur fruitée...",
     ingredients:
@@ -121,7 +121,7 @@ const products = [
   {
     id: "smooth-me-peche-ice-tea",
     name: "Smooth Me Pêche Ice Tea",
-    img: "/images/gel7.webp",
+    img: "/niall-cosmetique/images/gel7.webp",
     description:
       "Le gel douche Smooth Me Pêche Ice Tea combine la fraîcheur de la pêche et du thé glacé...",
     ingredients:
@@ -137,7 +137,7 @@ const products = [
   {
     id: "smooth-me-monoi",
     name: "Smooth Me Monoï",
-    img: "/images/gel8.webp",
+    img: "/niall-cosmetique/images/gel8.webp",
     description:
       "Le gel douche Smooth Me Monoï évoque des vacances paradisiaques avec son parfum tropical...",
     ingredients:
@@ -153,7 +153,7 @@ const products = [
   {
     id: "smooth-me-pomme-verte",
     name: "Smooth Me Pomme Verte",
-    img: "/images/gel5.webp",
+    img: "/niall-cosmetique/images/gel5.webp",
     description:
       "Le gel douche Smooth Me Pomme Verte offre un parfum vif et vivifiant rappelant les pommes croquantes...",
     ingredients:
@@ -170,7 +170,7 @@ const products = [
   {
     id: "gel-nettoyant-curcuma",
     name: "Gel Nettoyant Curcuma",
-    img: "/images/soin1.webp",
+    img: "/niall-cosmetique/images/soin1.webp",
     description:
       "Le gel nettoyant visage au curcuma purifie et illumine la peau grâce à ses propriétés antioxydantes.",
     ingredients: "Aqua, Sodium Laureth Sulfate, Phenoxyethanol, Caprylyl glycol, Potassium phosphate, Provitamine B5, Vitamine E, Vitamine A, Acide Hyaluronique, Curcuma, Ethylene diamine tetra acetic acid, Cocamide DEA.",
@@ -207,7 +207,7 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
   {
     id: "gel-nettoyant-vitamine-c",
     name: "Gel Nettoyant Vitamine C",
-    img: "/images/soin2.webp",
+    img: "/niall-cosmetique/images/soin2.webp",
     description:
       "Le gel nettoyant visage à la vitamine C est un produit de soin de la peau conçu pour nettoyer en profondeur le visage tout en procurant les bienfaits de la vitamine C. Lorsqu’il est appliqué sur la peau humide, le gel nettoyant se transforme en une mousse légère et onctueuse qui élimine en douceur les impuretés, l’excès de sébum et les traces de maquillage. Il laisse la peau fraîche, propre et revitalisée, prête à recevoir les soins ultérieurs. ",
     ingredients: "Aqua/Water/Eau, Sodium Coco-Glucoside, Disodium Laureth Sulfosuccinate, Glycerin, Cocamidopropyl Betaine, Coco-Caprylate, Citric Acid, Sodium Chloride, Ascorbic Acid.",
@@ -244,7 +244,7 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
   {
     id: "gel-nettoyant-concombre",
     name: "Gel Nettoyant Concombre",
-    img: "/images/soin3.webp",
+    img: "/niall-cosmetique/images/soin3.webp",
     description:
       "Le gel nettoyant visage au Concombre est un produit de soin de la peau spécialement formulé pour nettoyer en profondeur et rafraîchir la peau du visage. Ce gel contient des extraits de concombre, connus pour leurs propriétés apaisantes, hydratantes et purifiantes. Ce gel nettoyant aide à éliminer en douceur les impuretés, l’excès de sébum et les traces de maquillage, tout en laissant la peau propre et revitalisée. Il peut également aider à apaiser les peaux sensibles et à réduire les rougeurs et les irritations.",
     ingredients: "Aqua/Water/Eau, Sodium Coco-Glucoside, Disodium Laureth Sulfosuccinate, Glycerin, Cocamidopropyl Betaine, Coco-Caprylate, Citric Acid, Sodium Chloride, Cucumber Extract.",
@@ -281,7 +281,7 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
   {
     id: "gel-nettoyant-cocktail-vitaminé",
     name: "Gel Nettoyant Cocktail Vitaminé",
-    img: "/images/soin4.webp",
+    img: "/niall-cosmetique/images/soin4.webp",
     description:
       "Le gel nettoyant visage Cocktail vitaminé est un produit de soin de la peau spécialement formulé pour nettoyer en douceur le visage tout en apportant une dose de vitamines bénéfiques à la peau. Ce gel nettoyant contient un mélange d’ingrédients actifs qui aident à éliminer les impuretés, l’excès de sébum et les traces de maquillage, laissant la peau fraîche, propre et revitalisée.",
     ingredients: "Aqua/Water/Eau, Sodium Sulfate, Citric Acid, Ceteareth 20, Phenoxyethanol, Provitamine B5, Vitamine A,D,E, Acide hyaluronique, Caprylyl Glycol, Potassium Phosphate, Cocamidopropyl Betaine, Sorbitol, Omega-3.",
@@ -300,7 +300,7 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
   {
     id: "masque-visage-argile-blanche",
     name: "Masque Visage à l’Argile Blanche",
-    img: "/images/soin15.webp",
+    img: "/niall-cosmetique/images/soin15.webp",
     description:
       "Plongez dans une expérience de purification douce et apaisante avec notre masque à l'argile blanche pour le visage. Formulé avec de l'argile blanche naturelle, ce masque offre une action délicate pour nettoyer en profondeur les pores tout en préservant l'équilibre naturel de la peau. Sa texture crémeuse glisse facilement sur la peau, procurant une sensation de fraîcheur et de confort.",
     ingredients: "Aqua/Eau, Argile Blanche, Sorbitol, Beurre de Karité, Cetyl alcohol, Ceteareth- 20, Phenoxyethanol, Propylene glycol.",
@@ -327,7 +327,7 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
   {
     id: "masque-visage-avocado",
     name: "Masque Visage Avocado",
-    img: "/images/soin11.webp",
+    img: "/niall-cosmetique/images/soin11.webp",
     description:
       "Découvrez le secret d'une peau éclatante et nourrie avec notre masque visage à l'avocat. Formulé avec des ingrédients naturels riches en nutriments, dont l'avocat, ce masque offre une hydratation intense pour une peau douce et souple. L'avocat regorge de vitamines et d'antioxydants qui aident à nourrir la peau en profondeur, tandis que ses propriétés apaisantes calment les irritations et laissent la peau radieuse. ",
     ingredients: "Aqua/Eau, Cetyl Alcohol, Ceteareth-20, Phenoxythanol, Caprylic, Huile d’avocat.",
@@ -354,7 +354,7 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
   {
     id: "masque-visage-banane",
     name: "Masque Visage Banane",
-    img: "/images/soin16.webp",
+    img: "/niall-cosmetique/images/soin16.webp",
     description:
       "Découvrez le secret d'une peau éclatante et nourrie avec notre masque visage à la banane. Infusé avec les bienfaits naturels de la banane, ce masque offre une hydratation intense pour une peau douce et souple. La banane est riche en vitamines, minéraux et antioxydants qui aident à nourrir la peau en profondeur, favorisant ainsi son élasticité et sa luminosité. Sa texture crémeuse pénètre en profondeur dans les couches de la peau, laissant une sensation de fraîcheur et de revitalisation.",
     ingredients: "Aqua/Eau, Cetyl Alcohol, Ceteareth-20, Phenoxythanol, Caprylic, Huile de banane, Vitamine E.",
@@ -381,7 +381,7 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
   {
     id: "masque-visage-milky",
     name: "Masque Visage Milky",
-    img: "/images/soin17.webp",
+    img: "/niall-cosmetique/images/soin17.webp",
     description:
       "Découvrez notre masque visage Milky. Sa formule crémeuse, enrichie en ingrédients nourrissants, offre à votre peau une expérience de soin apaisante et revitalisante. Conçu pour hydrater en profondeur, ce masque laisse votre peau douce, souple et d'apparence saine. Grâce à sa texture douce et onctueuse, il enveloppe la peau d'un voile de douceur, procurant une sensation de confort et de bien-être instantanée.",
     ingredients: "Aqua/Eau, Cetyl Alcohol, Ceteareth-20, Phenoxythanol, Caprylic, Vitamine B3.",
@@ -408,7 +408,7 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
   {
     id: "masque-visage-nila-bleu",
     name: "Masque Visage Nila Bleu",
-    img: "/images/soin13.webp",
+    img: "/niall-cosmetique/images/soin13.webp",
     description:
       "Ce masque apporte une expérience rafraîchissante à votre routine de soin de la peau. Enrichi en extraits naturels de Nila Bleu, riche en antioxydants et en nutriments essentiels, notre masque revitalise la peau, l'hydratant en profondeur et lui offrant un éclat naturel. Sa formule douce et onctueuse glisse sur la peau, procurant une sensation apaisante et revitalisante.",
     ingredients: "Aqua/Eau, Nila bleu, Sorbitol, Huile d’avocat, Cetyl alcohol, Ceteareth- 20, Phenoxyethanol, Propylene glycol, Caprylyl caprylate, Citric acid.",
@@ -435,7 +435,7 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
   {
     id: "masque-visage-thé-vert",
     name: "Masque Visage Thé Vert",
-    img: "/images/soin12.webp",
+    img: "/niall-cosmetique/images/soin12.webp",
     description:
       "Offrez à votre peau une pause revitalisante avec notre masque visage au thé vert. Infusé avec les bienfaits apaisants et antioxydants du thé vert, ce masque aide à purifier la peau en profondeur tout en éliminant les impuretés et les toxines. Sa formule légère et rafraîchissante pénètre rapidement dans la peau, laissant une sensation de fraîcheur et d'hydratation.",
     ingredients: "Aqua/Eau, Cetyl Alcohol, Ceteareth-20, Phenoxythanol, Caprylic, Huile essentielle d’arbre à thé.",
@@ -462,7 +462,7 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
   {
     id: "masque-visage-charbon-actif",
     name: "Masque Visage Charbon Actif",
-    img: "/images/soin14.webp",
+    img: "/niall-cosmetique/images/soin14.webp",
     description:
       "Plongez dans une expérience de soin luxueuse avec notre Masque Visage au Charbon Actif, spécialement formulé pour détoxifier et revitaliser votre peau. Ce masque combine les propriétés purifiantes du charbon actif naturel avec des extraits botaniques nourrissants, offrant une solution complète pour une peau éclatante et impeccable.",
     ingredients: "Aqua/Eau, Cetyl Alcohol, Ceteareth-20, Phenoxythanol, Caprylic, Vitamine B3.",
@@ -489,7 +489,7 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
   {
     id: "sérum-visage-curcuma",
     name: "Sérum Visage Curcuma",
-    img: "/images/soin-serum.webp",
+    img: "/niall-cosmetique/images/soin-serum.webp",
     description:
       "Le sérum visage au Curcuma est un produit de soin de la peau, formulé spécifiquement pour apporter des bienfaits à la peau. Ce sérum est composé d’extrait de curcuma, des agents hydratants et d’autres ingrédients bénéfiques. L’extrait de curcuma, connu pour ses propriétés éclaircissantes, peut aider à réduire les taches sombres, les imperfections et à améliorer l’état global de la peau. ",
     ingredients: "Aqua, Sodium Laureth Sulfate, Phenoxyethanol, Caprylyl glycol, Potassium phosphate, Provitamine B5, Vitamine E, Vitamine A, Acide Hyaluronique, Curcuma, Ethylene diamine tetra acetic acid, Cocamide DEA.",
@@ -515,7 +515,7 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
   {
     id: "toner-cocktail-vitaminé",
     name: "Toner Cocktail Vitaminé",
-    img: "/images/soin6.webp",
+    img: "/niall-cosmetique/images/soin6.webp",
     description:
       "Le toner visage cocktail vitaminé est un produit de soin pour le visage qui combine les bienfaits de l’acide hyaluronique, de l’oméga 3, de l’huile d’argan, et de la provitamine B5. Ce toner est conçu pour apporter une hydratation intense, nourrir la peau en profondeur, revitaliser et améliorer l’apparence globale de la peau.",
     ingredients: "Aqua/Water/Eau, Caprylyl Caprylate, Sorbitol, Phenoxyethanol, Omega 3, Huile d’argan, Provitamine B5, Vitamine A, Acide Hyaluronique.",
@@ -537,7 +537,7 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
   {
     id: "toner-vitamine-c",
     name: "Toner Vitamine C",
-    img: "/images/soin7.webp",
+    img: "/niall-cosmetique/images/soin7.webp",
     description:
       "Le toner visage à la vitamine C est formulé pour aider à éclaircir et à uniformiser le teint de la peau, réduire l’apparence des taches brunes et des taches de vieillesse, et stimuler la production du collagène pour une peau plus ferme et plus jeune. La vitamine C aide également à protéger la peau contre les dommages causés par les radicaux libres et les rayons UV, ce qui peut contribuer à prévenir les signes du vieillissement prématuré.",
     ingredients: "Aqua/Water/Eau, Glycerin, Vitamine C, Citric Acid, Sodium Benzoate, Parfum/Fragrance.",
@@ -566,7 +566,7 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
   {
     id: "toner-eau-de-rose",
     name: "Toner Eau De Rose",
-    img: "/images/soin8.webp",
+    img: "/niall-cosmetique/images/soin8.webp",
     description:
       "La lotion tonique à l’eau de rose est un produit de soin pour la peau qui combine les bienfaits de l’eau de rose avec d’autres ingrédients hydratants et tonifiants. Cette lotion tonique est conçue pour être utilisée après le nettoyage du visage pour apaiser, hydrater et préparer la peau à l’application des autres produits de soin. Cette eau de rose a une fragrance agréable et rafraîchissante, ce qui en fait une expérience sensorielle agréable lors de son application.",
     ingredients: "Aqua/Water/Eau, Eau de rose destillée, Disodium EDTA, Sodium Benzoate, Glycerin, Polyquaternium, Citric Acid, Propylen Glycol.",
@@ -593,7 +593,7 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
  {
     id: "soin-serum",
     name: "Soin Serum",
-    img: "/images/soin-serum.webp",
+    img: "/niall-cosmetique/images/soin-serum.webp",
     description:
       "Le sérum visage au Curcuma est un produit de soin de la peau, formulé spécifiquement pour apporter des bienfaits à la peau. Ce sérum est composé d’extrait de curcuma, des agents hydratants et d’autres ingrédients bénéfiques. L’extrait de curcuma, connu pour ses propriétés éclaircissantes, peut aider à réduire les taches sombres, les imperfections et à améliorer l’état global de la peau.",
     ingredients: "Aqua, Sodium Laureth Sulfate, Phenoxyethanol, Caprylyl glycol, Potassium phosphate, Provitamine B5, Vitamine E, Vitamine A, Acide Hyaluronique, Curcuma, Ethylene diamine tetra acetic acid, Cocamide DEA.",
@@ -615,9 +615,9 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
   },
   // === Shampoings ===
 {
-  id: "Shampooing-bb-hair-sans-sulfate",
+  id: "shampooing-bb-hair-sans-sulfate",
   name: "Shampooing BB Hair Sans Sulfate",
-  img: "/images/shamp1.webp",
+  img: "/niall-cosmetique/images/shamp1.webp",
   description: "Le shampooing BB Hair sans sulfate, est un produit capillaire conçu pour nettoyer en douceur vos cheveux sans les priver de leurs huiles naturelles. Il offre une alternative douce aux shampooings traditionnels contenant des sulfates, qui peuvent parfois être agressifs pour les cheveux et le cuir chevelu. Offrez à vos cheveux le soin qu’ils méritent tout en préservant leur santé et leur beauté naturelle.",
   ingredients: "Aqua/Water/Eau, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Cocamide DEA, Coco Glucoside, Glycol Distearate, Polyquaternium-10, Polyquaternium-7, Salicylic Acid, Protéine de blé, Vitamine E, Provitamine B5, Kératine, huile d’argan, EDTA.",
   caracteristiques: [
@@ -638,9 +638,9 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
  },
 
 {
-  id: "shampooing-bb-hairs-silver",
+  id: "shampooing-bb-hair-silver",
   name: "Shampooing BB Hair Silver",
-  img: "/images/shamp2.webp",
+  img: "/niall-cosmetique/images/shamp2.webp",
   description: "Le shampooing BB Hair Silver, est un produit capillaire conçu pour les cheveux gris et blonds, il est formulé pour répondre aux besoins spécifiques de ce type de cheveux. Il aide à préserver et à sublimer la couleur, tout en offrant des soins nourrissants pour des cheveux sains et brillants. Offrez à vos cheveux gris et blonds les soins qu’ils méritent avec notre shampooing spécialement formulé pour rehausser leur couleur et leur éclat.",
   ingredients: "Aqua/Water/Eau, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Cocamide DEA, Coco Glucoside, Glycol Distearate, Polyquaternium-10, Polyquaternium-7, Salicylic Acid, Protéine de blé, Vitamine E, Provitamine B5, Kératine , Propylen Glycol, Acide Violet,  Magnésium, EDTA.",
   caracteristiques: [
@@ -663,7 +663,7 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
 {
   id: "shampooing-bb-hair-rose",
   name: "Shampooing BB Hair Rose",
-  img: "/images/shamp3.webp",
+  img: "/niall-cosmetique/images/shamp3.webp",
   description: "Le shampooing BB Hair à la kératine, aux protéines et aux graines de lin est un produit capillaire conçu pour nourrir, renforcer et améliorer la santé des cheveux. En utilisant ce shampooing, vous pouvez vous attendre à des cheveux plus forts, plus lisses et plus brillants. Il peut également aider à réduire les frisottis, à améliorer la texture des cheveux et à faciliter le coiffage.",
   ingredients: "Aqua/Water/Eau, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco Glucoside, Glycol Distearate, Polyquaternium-10, Polyquaternium-7, Graines de lin, Protéine de blé, Omega-3, Beurre de karité, Kératine, Huile d’argan, Chloromethylisothiazolinone.",
   caracteristiques: [
@@ -684,9 +684,9 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
 
 // === Après-Shampoings ===
 {
-  id: "après-shampooing-bb-hair-silver",
-  name: "Après Shampooing BB Hair Silver",
-  img: "/images/shamp4.webp",
+  id: "apres-shampooing-bb-hair-silver",
+  name: "Apres Shampooing BB Hair Silver",
+  img: "/niall-cosmetique/images/shamp4.webp",
   description: "L’après shampooing BB Hair à la kératine, aux protéines et aux graines de lin spécialement conçu pour apporter des bienfaits réparateurs et nourrissants à vos cheveux. Il aide à renforcer la structure capillaire, à lisser les frisottis et à restaurer la vitalité des cheveux abîmés et ternes. Offrez à vos cheveux les soins réparateurs et nourrissants qu’ils méritent pour une chevelure magnifique et en pleine santé.",
   ingredients: "Aqua/Water/Eau, Ceteareth-20, Strontium Chloride, Dicaprylyl Carbonate, Polyquaternium-10, Citric Acid, Glycerin, Kératine, Vitamine E, Provitamine B5, Salicylic Acid, Magnésium, Chloromethylisothiazolinone, Huile d’amande, Propylen Glycol.",
   caracteristiques: [
@@ -704,9 +704,9 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
 },
 
 {
-  id: "après-shampooing-bb-hair-rose",
-  name: "Après Shampooing BB Hair Rose",
-  img: "/images/shamp5.webp",
+  id: "apres-shampooing-bb-hair-rose",
+  name: "Apres Shampooing BB Hair Rose",
+  img: "/niall-cosmetique/images/shamp5.webp",
   description: "L’après shampooing BB Hair à la kératine, aux protéines et aux graines de lin spécialement conçu pour apporter des bienfaits réparateurs et nourrissants à vos cheveux. Il aide à renforcer la structure capillaire, à lisser les frisottis et à restaurer la vitalité des cheveux abîmés et ternes. Offrez à vos cheveux les soins réparateurs et nourrissants qu’ils méritent pour une chevelure magnifique et en pleine santé.",
   ingredients: "Aqua/Water/Eau, Ceteareth-20, Strontium Chloride, Dicaprylyl Carbonate, Polyquaternium-10, Citric Acid, Omega-3, Kératine, Vitamine E, Provitamine B5, Huile d’argan, Chloromethylisothiazolinone, Fragrance/Parfum.",
   caracteristiques: [
@@ -726,7 +726,7 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
 {
   id: "gommage-corporel-savon-dzair",
   name: "Gommage Corporel Savon Dzair",
-  img: "/images/intro1.webp",
+  img: "/niall-cosmetique/images/intro1.webp",
   description: "Explorez notre gommage corporel Savon Dzair, une invitation à l’évasion dans les hammams traditionnels d’Algérie. Ce gommage exfoliant de luxe associe les bienfaits du savon noir à une combinaison nourrissante d’ingrédients naturels. Enrichi en beurre de karité et en vitamine E, notre formule exclusive élimine en douceur les impuretés tout en hydratant et en protégeant votre peau.",
   ingredients: "Aqua, Sodium Lauryl Ether Sulfate, Cocamidopropyl Betaine, Cetearyl Alcohol, Sodium Glycolate, Ethylenediaminetetraacetic Acid (EDTA), Almond oil, Vitamin E, Shea  Butter, Dzair Soap.",
   Parfum: [
@@ -754,7 +754,7 @@ Appliquez ensuite votre tonique, sérum ou crème hydratante habituels.
 {
   id: "gommage-corporel-au-café",
   name: "Gommage Corporel Au Café",
-  img: "/images/visu3.webp",
+  img: "/niall-cosmetique/images/visu3.webp",
   description: "Découvrez notre gommage corporel au café, un incontournable pour une peau douce et revitalisée. Notre Coffee Body Scrub est spécialement formulé pour exfolier en douceur, éliminer les cellules mortes et stimule la circulation sanguine, laissant votre peau radieuse et rafraîchie. Enrichi en graines de café arabica et en ingrédients nourrissants, ce gommage laisse une sensation de fraîcheur et une peau incroyablement lisse après chaque utilisation. Offrez-vous une expérience sensorielle unique avec notre gommage corporel au café et redonnez vie à votre peau dès aujourd’hui.",
   ingredients: "Aqua, Sodium Lauryl Ether Sulfate, Cocamidopropyl Betaine, Cetearyl Alcohol, Sodium Glycolate, Ethylenediaminetetraacetic Acid (EDTA), almond Oil, Vitamin E, Shea  Butter, Coffee.",
   Parfum: [
