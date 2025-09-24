@@ -113,8 +113,7 @@ export default function APropos() {
             La Qualité et la Sécurité de nos produits sont notre priorité
           </h2>
           <p className="font-semibold text-gray-800 leading-relaxed">
-            La qualité occupe une place indispensable pour garantir nos produits
-            de beauté...
+           La qualité occupe une place indispensable pour garantir nos produits de beauté. Pour satisfaire nos consommateurs, nous avons mis en place un système de gestion de qualité unique couvrant chaque étape du processus de développement des produits, de la conception à la distribution sur le marché, en passant par l'approvisionnement en matières premières et en emballages ainsi que la production en usine.​
           </p>
         </div>
       </FadeInSection>
